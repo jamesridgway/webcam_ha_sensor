@@ -25,8 +25,14 @@ Install python requirements:
 
     ./venv/bin/pip install -r requirements.txt
 
-Copy the example `.env` file and sustitue the values as needed.
+Copy the example `.env` file and substitute the values as needed.
 
-Run `main.py`:
+Use `./run.sh` to start the utility:
 
-    ./venv/bin/python main.py
+    ./run.sh
+
+## Running automatically in the background
+
+Depending on what operating system you are running will depend on what you want to do for this.
+
+I am using Ubuntu; therefore, I have added the utility to the [Startup Applications](https://help.ubuntu.com/stable/ubuntu-help/startup-applications.html.en) that should be run when I log in to my computer.
